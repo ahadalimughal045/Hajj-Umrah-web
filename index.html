@@ -14,7 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
     rel="stylesheet">
   <!-- Custom Stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css?v=3">
 </head>
 
 <body>
@@ -62,21 +62,21 @@
         <span class="logo-text">AL-HARAMAIN</span>
       </div>
       <nav class="nav-menu">
-        <a href="index.html" class="active">Home</a>
-        <a href="services.html">Services</a>
-        <a href="packages.html">Packages</a>
-        <a href="destinations.html">Destinations</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="blog.html">Blog</a>
-        <a href="china-tour.html">China Tour</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#packages">Packages</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#blog">Blog</a>
+        <a href="#china-tour">China Tour</a>
       </nav>
       <div class="header-cta">
-        <a href="packages.html" class="btn btn-primary-gold">Book Journey</a>
+        <a href="#packages" class="btn btn-primary-gold">Book Journey</a>
       </div>
     </header>
 
     <!-- Hero Content -->
-    <main class="hero-section">
+    <section class="hero-section" id="home">
       <div class="hero-container">
 
         <!-- Main copy and stats -->
@@ -137,10 +137,699 @@
         </div>
 
       </div>
-    </main>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-content-section" id="services">
+      <div class="destinations-header-block animate-slide-up-2" style="margin-bottom: 3rem; text-align: center; width: 100%;">
+        <h2 class="destinations-main-title">Our Premium Services</h2>
+        <p class="destinations-subtitle">Transformative spiritual travel services designed for modern pilgrims</p>
+      </div>
+      <div class="services-container">
+        
+        <!-- Left Side: Copy and list -->
+        <div class="services-left-col animate-slide-up-2">
+          
+          <!-- Crescent Moon Circle Icon -->
+          <div class="crescent-icon-wrapper">
+            <svg class="crescent-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.1 22C6.5 22 2 17.5 2 12S6.5 2 12.1 2c.4 0 .8.1 1.2.2-3.8 1.4-6.4 5-6.4 9.1s2.6 7.7 6.4 9.1c-.4.2-.8.3-1.2.3-.3.1-.6.1-.9.3z" />
+            </svg>
+          </div>
+
+          <h2 class="services-sub-title">Umrah Packages</h2>
+          <p class="services-description">
+            Experience the sacred journey of Umrah with our comprehensive packages designed for spiritual fulfillment.
+          </p>
+
+          <ul class="services-list">
+            <li>
+              <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              5-star hotels near Haram in Makkah & Madinah
+            </li>
+            <li>
+              <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Direct flights with premium airlines
+            </li>
+            <li>
+              <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Guided Ziyarat tours to blessed sites
+            </li>
+            <li>
+              <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              VIP ground transportation
+            </li>
+            <li>
+              <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Spiritual mentorship and guidance
+            </li>
+          </ul>
+
+        </div>
+
+        <!-- Right Side: Pilgrims image -->
+        <div class="services-right-col animate-slide-up-3">
+          <div class="service-image-card">
+            <img src="assets/images/kaaba-pilgrims.jpg" alt="Kaaba Pilgrims Courtyard" class="service-main-image" onerror="this.src='assets/images/food planting.jpg'">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages-grid-section" id="packages">
+      <div class="destinations-header-block animate-slide-up-2" style="margin-bottom: 3rem; text-align: center; width: 100%;">
+        <h2 class="destinations-main-title">Upcoming Tours & Packages</h2>
+        <p class="destinations-subtitle">Embark on unforgettable spiritual and cultural journeys to Islamic heritage destinations worldwide</p>
+      </div>
+      <div class="packages-container">
+        
+        <!-- Package 1: Premium Umrah Package -->
+        <div class="package-card animate-slide-up-2">
+          <div class="card-image-wrapper">
+            <img src="assets/images/umrah-card.jpg" alt="Kaaba Spiritual Center" class="card-image" onerror="this.src='assets/images/food planting.jpg'">
+            <!-- Location Badge -->
+            <span class="location-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Saudi Arabia
+            </span>
+            <!-- Price Badge -->
+            <span class="price-badge">$2,200</span>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Premium Umrah Package</h3>
+            
+            <!-- Rating stars -->
+            <div class="card-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <!-- Details List -->
+            <div class="card-details">
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                14 Days / 13 Nights
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                </svg>
+                15-25 people
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                </svg>
+                Makkah-Madinah
+              </div>
+            </div>
+
+            <!-- Highlights -->
+            <div class="card-highlights">
+              <span class="highlights-title">Highlights:</span>
+              <ul>
+                <li>5-Star Hotel in Makkah & Madinah</li>
+                <li>Direct Flights with Premium Airlines</li>
+                <li>Guided Ziyarat Tours Included</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2: Turkey Islamic Heritage Tour -->
+        <div class="package-card animate-slide-up-3">
+          <div class="card-image-wrapper">
+            <img src="assets/images/turkey-card.jpg" alt="Blue Mosque Istanbul" class="card-image" onerror="this.src='assets/images/food planting.jpg'">
+            <span class="location-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Turkey
+            </span>
+            <span class="price-badge">$1,600</span>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Turkey Islamic Heritage Tour</h3>
+            <div class="card-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <div class="card-details">
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                10 Days / 9 Nights
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                </svg>
+                15-20 people
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                </svg>
+                Bi-Monthly
+              </div>
+            </div>
+
+            <div class="card-highlights">
+              <span class="highlights-title">Highlights:</span>
+              <ul>
+                <li>Blue Mosque & Hagia Sophia</li>
+                <li>Ottoman Palace Tours</li>
+                <li>4-Star Luxury Hotels</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3: Spiritual Journey to Uzbekistan -->
+        <div class="package-card animate-slide-up-4">
+          <div class="card-image-wrapper">
+            <img src="assets/images/uzbekistan-card.jpg" alt="Registan Samarkand Uzbekistan" class="card-image" onerror="this.src='assets/images/food planting.jpg'">
+            <span class="location-badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Uzbekistan
+            </span>
+            <span class="price-badge">$1,800</span>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Spiritual Journey to Uzbekistan</h3>
+            <div class="card-rating">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+
+            <div class="card-details">
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                9 Days / 8 Nights
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                </svg>
+                10-15 people
+              </div>
+              <div class="detail-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="detail-icon">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                </svg>
+                Quarterly
+              </div>
+            </div>
+
+            <div class="card-highlights">
+              <span class="highlights-title">Highlights:</span>
+              <ul>
+                <li>Registan Square Tour</li>
+                <li>Ancient Silk Road Cities</li>
+                <li>Islamic Architecture</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations-grid-section" id="destinations">
+      <div class="destinations-container">
+        
+        <div class="destinations-header-block animate-slide-up-2">
+          <h2 class="destinations-main-title">Featured Destinations</h2>
+          <p class="destinations-subtitle">Our most sought-after spiritual and cultural destinations</p>
+        </div>
+
+        <div class="destinations-grid">
+          
+          <!-- Destination 1: Makkah -->
+          <div class="destination-card animate-slide-up-3">
+            <div class="destination-card-image-wrapper">
+              <img src="assets/images/makkah-dest.jpg" alt="Makkah Holy Kaaba" class="destination-card-image" onerror="this.src='assets/images/food planting.jpg'">
+              <span class="destination-location-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Saudi Arabia
+              </span>
+              <div class="destination-card-overlay">
+                <h3 class="destination-card-title">Makkah</h3>
+                <p class="destination-card-desc">The holiest city in Islam, home to the sacred Kaaba and the majestic Masjid al-Haram, welcoming millions of pilgrims annually.</p>
+                <a href="#packages" class="destination-card-btn">
+                  Explore Packages
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Destination 2: Madina -->
+          <div class="destination-card animate-slide-up-4">
+            <div class="destination-card-image-wrapper">
+              <img src="assets/images/madinah-dest.jpg" alt="Madina Al-Masjid an-Nabawi" class="destination-card-image" onerror="this.src='assets/images/food planting.jpg'">
+              <span class="destination-location-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Saudi Arabia
+              </span>
+              <div class="destination-card-overlay">
+                <h3 class="destination-card-title">Madina</h3>
+                <p class="destination-card-desc">The serene city of the Prophet Muhammad (PBUH), housing Al-Masjid an-Nabawi and offering unmatched spiritual peace and history.</p>
+                <a href="#packages" class="destination-card-btn">
+                  Explore Packages
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-grid-section" id="gallery">
+      <div class="destinations-header-block animate-slide-up-2" style="margin-bottom: 3rem; text-align: center; width: 100%;">
+        <h2 class="destinations-main-title">Travel Memories</h2>
+        <p class="destinations-subtitle">Journey through our collection of breathtaking memories captured from spiritual travels</p>
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-grid">
+          
+          <!-- Item 1: Kaaba (Wide) -->
+          <div class="gallery-item span-2-col animate-slide-up-2">
+            <div class="gallery-image-wrapper">
+              <img src="assets/images/gallery-kaaba.jpg" alt="Holy Kaaba Makkah" class="gallery-image" onerror="this.src='assets/images/food planting.jpg'">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-category">Makkah</span>
+                <h3 class="gallery-item-title">The Holy Kaaba</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Madina (Tall) -->
+          <div class="gallery-item span-2-row animate-slide-up-3">
+            <div class="gallery-image-wrapper">
+              <img src="assets/images/gallery-madina.jpg" alt="Green Dome Prophet's Mosque" class="gallery-image" onerror="this.src='assets/images/food planting.jpg'">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-category">Madina</span>
+                <h3 class="gallery-item-title">The Prophet's Mosque</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Minarets -->
+          <div class="gallery-item animate-slide-up-4">
+            <div class="gallery-image-wrapper">
+              <img src="assets/images/gallery-minarets.jpg" alt="Majestic Minarets" class="gallery-image" onerror="this.src='assets/images/food planting.jpg'">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-category">Architecture</span>
+                <h3 class="gallery-item-title">Towering Minarets</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: Quran/Prayer -->
+          <div class="gallery-item animate-slide-up-5">
+            <div class="gallery-image-wrapper">
+              <img src="assets/images/gallery-quran.jpg" alt="Holy Quran and Rosary" class="gallery-image" onerror="this.src='assets/images/food planting.jpg'">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-category">Spiritual</span>
+                <h3 class="gallery-item-title">Moments of Devotion</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5: Dome Detail -->
+          <div class="gallery-item span-2-col animate-slide-up-4">
+            <div class="gallery-image-wrapper">
+              <img src="assets/images/gallery-dome.jpg" alt="Islamic Dome Mosaic" class="gallery-image" onerror="this.src='assets/images/food planting.jpg'">
+              <div class="gallery-item-overlay">
+                <span class="gallery-item-category">Heritage</span>
+                <h3 class="gallery-item-title">Intricate Mosaic Dome</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-grid-section" id="blog">
+      <div class="blog-container">
+        
+        <div class="destinations-header-block animate-slide-up-2">
+          <h2 class="destinations-main-title">Featured Articles</h2>
+          <p class="destinations-subtitle">Browse through our latest travel insights and preparations guides</p>
+        </div>
+
+        <div class="blog-grid">
+          
+          <!-- Card 1 -->
+          <div class="blog-card animate-slide-up-3">
+            <div class="blog-image-wrapper">
+              <img src="assets/images/blog-guide.jpg" alt="Umrah Pilgrims Guide" class="blog-image" onerror="this.src='assets/images/food planting.jpg'">
+              <span class="blog-category-badge">Travel Guide</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  May 12, 2026
+                </div>
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  8 min read
+                </div>
+              </div>
+              <h3 class="blog-title">Complete Guide to Performing Umrah</h3>
+              <p class="blog-excerpt">Discover a step-by-step spiritual guide to the rituals, from Ihram to Tawaf and Sa'ee, ensuring a meaningful and peaceful pilgrimage.</p>
+              <a href="#" class="blog-readmore">
+                Read Full Article
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="blog-card animate-slide-up-4">
+            <div class="blog-image-wrapper">
+              <img src="assets/images/blog-prep.jpg" alt="Umrah Preparation Checklist" class="blog-image" onerror="this.src='assets/images/food planting.jpg'">
+              <span class="blog-category-badge">Preparation</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  May 10, 2026
+                </div>
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  5 min read
+                </div>
+              </div>
+              <h3 class="blog-title">Umrah Preparation: Essential Checklist</h3>
+              <p class="blog-excerpt">Prepare physically and logistically with our checklist covering documents, packing essentials, health preparations, and apps you need.</p>
+              <a href="#" class="blog-readmore">
+                Read Full Article
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="blog-card animate-slide-up-5">
+            <div class="blog-image-wrapper">
+              <img src="assets/images/blog-heritage.jpg" alt="Islamic Heritage Dome interior" class="blog-image" onerror="this.src='assets/images/food planting.jpg'">
+              <span class="blog-category-badge">Destinations</span>
+            </div>
+            <div class="blog-card-content">
+              <div class="blog-meta">
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  May 08, 2026
+                </div>
+                <div class="blog-meta-item">
+                  <svg class="blog-meta-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  7 min read
+                </div>
+              </div>
+              <h3 class="blog-title">Top 10 Islamic Heritage Sites to Visit</h3>
+              <p class="blog-excerpt">A curated journey through the most significant historical Mosques and archaeological sites rich in Islamic legacy across the globe.</p>
+              <a href="#" class="blog-readmore">
+                Read Full Article
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- China Tour Section -->
+    <section class="china-tour-section" id="china-tour">
+      <div class="destinations-header-block animate-slide-up-2" style="margin-bottom: 3rem; text-align: center; width: 100%;">
+        <h2 class="destinations-main-title">China & Hong Kong Historical Tour</h2>
+        <p class="destinations-subtitle">Explore centuries of Islamic history and heritage</p>
+      </div>
+      <div class="china-tour-container">
+        
+        <!-- Left Column: Flyer Poster -->
+        <div class="tour-poster-card animate-slide-up-2">
+          <div class="flyer-brand">AL-HARAMAIN TOURS</div>
+          <h2 class="flyer-title">CHINA & HONGKONG</h2>
+          <div class="flyer-brand">ISLAMIC HISTORICAL TOUR</div>
+          <div class="flyer-divider"></div>
+          
+          <ul class="flyer-highlights">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Beijing, Xi'an & Hong Kong
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Premium 5-Star Halal Dining
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Historically Significant Mosques
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Bullet Train Experience Included
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              Expert English-speaking Guides
+            </li>
+          </ul>
+
+          <div class="flyer-speaker">
+            <div class="speaker-img-wrapper">
+               <img src="assets/images/shaikh-nabil.jpg" alt="Shaikh Nabil" class="speaker-img" onerror="this.src='assets/images/food planting.jpg'">
+            </div>
+            <div class="speaker-info">
+              <span class="speaker-label">Spiritual Guide</span>
+              <span class="speaker-name">Shaikh Nabil</span>
+            </div>
+          </div>
+
+          <div class="flyer-dates-banner">
+            10-OCT-2026 to 20-OCT-2026
+          </div>
+        </div>
+
+        <!-- Middle Column: Itinerary Days 1-3 -->
+        <div class="itinerary-day-col animate-slide-up-3">
+          
+          <!-- Day 1 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 1 &bull; Sunday, 11 October 2026</div>
+              <div class="day-heading">Arrival - Beijing</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Welcome at Beijing Capital International Airport (PEK) by our tour representative.</li>
+                <li>VIP airport transfer to your luxury 5-star hotel in the heart of Beijing.</li>
+                <li>Rest and acclimatize after your flight.</li>
+                <li>Orientation welcome dinner at a renowned local Halal roast duck restaurant.</li>
+                <li>Overnight in Beijing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Day 2 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 2 &bull; Monday, 12 October 2026</div>
+              <div class="day-heading">Beijing Landmarks</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Early morning tour of the iconic Tiananmen Square and the majestic Forbidden City.</li>
+                <li>Midday prayer at the historic Niujie Mosque, Beijing's oldest mosque dating back to the Liao Dynasty (996 AD).</li>
+                <li>Halal lunch featuring local hand-pulled beef noodles.</li>
+                <li>Visit the Summer Palace, the stunning imperial garden of the Qing Dynasty.</li>
+                <li>Halal hot pot dinner and cultural tea ceremony.</li>
+                <li>Overnight in Beijing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Day 3 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 3 &bull; Tuesday, 13 October 2026</div>
+              <div class="day-heading">The Great Wall Experience</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Travel to the Mutianyu section of the Great Wall of China. Cable car ride up and back down.</li>
+                <li>Group photo session on the historic towers.</li>
+                <li>Visit the Cloisonné enamel craft factory to learn traditional art.</li>
+                <li>Visit the Olympic Green, including photo stops at the Bird's Nest and Water Cube.</li>
+                <li>Prayer session at Dongsi Mosque.</li>
+                <li>Halal barbecue dinner.</li>
+                <li>Overnight in Beijing.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Itinerary Days 4-6 -->
+        <div class="itinerary-day-col animate-slide-up-4">
+          
+          <!-- Day 4 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 4 &bull; Wednesday, 14 October 2026</div>
+              <div class="day-heading">Beijing to Xi'an</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Transfer to Beijing West Railway Station to board the high-speed bullet train to Xi'an.</li>
+                <li>Scenic train journey across the Chinese countryside (approx. 4.5 hours).</li>
+                <li>Arrival in Xi'an, the ancient capital and starting point of the Silk Road.</li>
+                <li>Check in to your premium 5-star hotel.</li>
+                <li>Evening walking tour of the lively Muslim Quarter and its vibrant food bazaar.</li>
+                <li>Overnight in Xi'an.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Day 5 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 5 &bull; Thursday, 15 October 2026</div>
+              <div class="day-heading">Xi'an Heritage</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Guided tour of the world-famous Terracotta Warriors and Horses Museum, an archaeological wonder.</li>
+                <li>Perform Juma'ah / midday prayers at the Great Mosque of Xi'an, founded in 742 AD during the Tang Dynasty.</li>
+                <li>Halal dumpling banquet dinner, a local specialty.</li>
+                <li>Night view of the ancient City Wall and the Giant Wild Goose Pagoda plaza.</li>
+                <li>Overnight in Xi'an.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Day 6 -->
+          <div class="itinerary-day-box">
+            <div class="day-box-header">
+              <div class="day-title">Day 6 &bull; Friday, 16 October 2026</div>
+              <div class="day-heading">Xi'an - Shanghai &amp; Beyond</div>
+            </div>
+            <div class="day-box-content">
+              <ul class="day-activities-list">
+                <li>Morning flight to Shanghai, China's futuristic commercial hub.</li>
+                <li>Walk along The Bund, enjoying views of the historic colonial buildings and the Pudong skyline.</li>
+                <li>Perform prayers at the Huxi Mosque.</li>
+                <li>Visit the Yu Garden and the Bazaar area.</li>
+                <li>Grand farewell dinner and cruise on the Huangpu River.</li>
+                <li>Overnight in Shanghai.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
 
     <!-- Bottom Action Bar -->
-    <footer class="bottom-action-bar animate-slide-up-5">
+    <footer class="bottom-action-bar animate-slide-up-5" style="border-radius: 0;">
       <div class="bottom-bar-container">
         <div class="booking-text">
           <h2>Ready to Book Your Spiritual Journey?</h2>
